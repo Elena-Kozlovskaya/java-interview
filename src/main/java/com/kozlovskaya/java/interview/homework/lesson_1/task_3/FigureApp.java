@@ -20,5 +20,7 @@ public class FigureApp {
         square.setSide(6.0);
         square.getSquare();
 
+        square.getSquare(2.0, 2.0);
+
     }
 }

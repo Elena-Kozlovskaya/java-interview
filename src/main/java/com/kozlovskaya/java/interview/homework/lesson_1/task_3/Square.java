@@ -10,6 +10,10 @@ public class Square extends Figure {
         System.out.println("Площадь квадрата = " + result);
     }
 
+    void getSquare(double a, double b){
+        System.out.println("Другая площадь квадрата = " + (a * b));
+    }
+
     public double getSide() {
         return side;
     }
