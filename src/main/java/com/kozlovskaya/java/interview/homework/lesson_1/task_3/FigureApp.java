@@ -4,6 +4,7 @@ public class FigureApp {
     public static void main(String[] args) {
         Circle circle = new Circle();
         circle.setDiameter(5.0);
+        circle.setName("круг");
         circle.getSquare();
 
         Triangle triangle = new Triangle();

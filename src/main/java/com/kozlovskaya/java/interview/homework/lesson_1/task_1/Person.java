@@ -55,6 +55,9 @@ public class Person {
                 ", gender='" + gender + '\'' +
                 '}';
     }
+    private Person(){
+
+    }
 
     public static class Builder {
         private Person person;

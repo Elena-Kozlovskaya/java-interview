@@ -1,7 +1,7 @@
 package com.kozlovskaya.java.interview.homework.lesson_1.task_3;
 
 public abstract class Figure {
-    private String name;
+    public String name;
 
     abstract void getSquare();
 

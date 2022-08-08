@@ -15,7 +15,7 @@ public class Circle extends Figure{
     @Override
     void getSquare() {
         double result = Math.pow(diameter, 2) / 4 * Math.PI;
-        System.out.println("Площадь круга = " + result);
+        System.out.println("Площадь круга = " + getName() + result);
     }
 
 }
